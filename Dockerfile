@@ -3,5 +3,4 @@ FROM docker:latest
 LABEL org.opencontainers.image.source https://github.com/aminmkh/dind-make
 
 RUN apk update && \
-    apk add make
-
+    apk add make git
