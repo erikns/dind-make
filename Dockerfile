@@ -1,5 +1,6 @@
 FROM docker:latest
-MAINTAINER eriksorensen88@gmail.com
+# MAINTAINER eriksorensen88@gmail.com
+LABEL org.opencontainers.image.source https://github.com/aminmkh/dind-make
 
 RUN apk update && \
     apk add make
